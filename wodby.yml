@@ -1,0 +1,5 @@
+pipeline:
+- name: Install dependencies
+  type: command
+  command: composer install
+  directory: $WODBY_APP_ROOT
