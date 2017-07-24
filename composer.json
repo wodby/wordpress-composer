@@ -21,9 +21,6 @@
     "sort-packages": true
   },
   "require": {
-// This is how you install WordPress plugins and themes.
-//    "wpackagist-plugin/captcha":">=3.9",
-//    "wpackagist-theme/hueman":"*",
     "johnpbloch/wordpress-core-installer": "^1.0",
     "johnpbloch/wordpress-core": "dev-master"
   },
