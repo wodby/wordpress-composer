@@ -36,7 +36,7 @@ Update `require` section in `composer.json` as described on https://wpackagist.o
     web/wp-content/themes/*
     !web/wp-content/themes/my-custom-theme/
     ``` 
-2. Add the following lines to your composer.json under `extra` (make sure it's before `wordpress-install-dir`): 
+2. Add the same path to your composer.json under `extra > preserve-paths`: 
     ```
     "preserve-paths": [
       "web/wp-content/themes/custom"
