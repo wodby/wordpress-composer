@@ -1,4 +1,4 @@
-# Composer template for WordPress projects
+# Composer Template for WordPress Projects
 
 This project template should provide a kickstart for managing your site dependencies with [Composer](https://getcomposer.org/).
 
@@ -19,12 +19,6 @@ By default, wordpress core will be installed in `./web` directory. Plugins and t
 1. First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 2. Fork and clone this repository
 3. Run composer install in your repository root
-
-### Using with Wodby
-
-1. Fork this repository
-2. Connect the repository to Wodby
-3. Deploy new app, choose WordPress stack, on the 2nd step of the form choose connected repository and enter `web` as Codebase dir 
 
 ### How to install WordPress plugins and themes?
 
@@ -50,3 +44,9 @@ Update `require` section in `composer.json` as described on https://wpackagist.o
     ```
 3. Add your plugin/theme directory under version control
 4. Run `composer install`. Composer will install WordPress core and keep your custom theme
+
+### Deployment via Wodby
+
+1. Fork this repository
+2. Connect the repository to Wodby
+3. Deploy new app, choose WordPress stack, on the 2nd step of the form choose connected repository and enter `web` as Codebase dir 
