@@ -14,7 +14,7 @@ By default, wordpress core will be installed in `./web` directory. Plugins and t
 
 ### How to install WordPress plugins and themes
 
-Update `require` section as described on https://wpackagist.org/ 
+Use [`composer require`](https://getcomposer.org/doc/03-cli.md#require) or update composer.json as described on https://wpackagist.org/ 
 
 ### Usage
 
