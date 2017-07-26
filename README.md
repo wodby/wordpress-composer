@@ -16,15 +16,15 @@ By default, wordpress core will be installed in `./web` directory. Plugins and t
 
 ### Usage
 
-* First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
-* Fork this repository
-* Run composer install
+1. First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+2. Fork and clone this repository
+3. Run composer install in your repository root
 
 ### Using with Wodby
 
-* Fork this repository
-* Connect the repository to Wodby
-* Deploy new app, choose WordPress stack, on the 2nd step of the form choose connected repository and enter `web` as Codebase dir 
+1. Fork this repository
+2. Connect the repository to Wodby
+3. Deploy new app, choose WordPress stack, on the 2nd step of the form choose connected repository and enter `web` as Codebase dir 
 
 ### How to install WordPress plugins and themes?
 
@@ -32,21 +32,21 @@ Update `require` section in `composer.json` as described on https://wpackagist.o
 
 ### How to manage my custom themes and plugins under version control?
 
-* Exclude path to your plugin or theme from .gitignore. Example for theme under `web/wp-content/themes/my-custom-theme/`:
-```
-!web/
-web/*
-!web/wp-content/
-web/wp-content/*
-!web/wp-content/themes/
-web/wp-content/themes/*
-!web/wp-content/themes/my-custom-theme/
-``` 
-* Add the following lines to your composer.json under `extra` (make sure it's before `wordpress-install-dir`): 
-```
-"preserve-paths": [
-  "web/wp-content/themes/custom"
-]
-```
-* Add your plugin/theme directory under version control
-* Run `composer install`. Composer will install WordPress core and keep your custom theme
+1. Exclude path to your plugin or theme from .gitignore. Example for theme under `web/wp-content/themes/my-custom-theme/`:
+    ```
+    !web/
+    web/*
+    !web/wp-content/
+    web/wp-content/*
+    !web/wp-content/themes/
+    web/wp-content/themes/*
+    !web/wp-content/themes/my-custom-theme/
+    ``` 
+2. Add the following lines to your composer.json under `extra` (make sure it's before `wordpress-install-dir`): 
+    ```
+    "preserve-paths": [
+      "web/wp-content/themes/custom"
+    ]
+    ```
+3. Add your plugin/theme directory under version control
+4. Run `composer install`. Composer will install WordPress core and keep your custom theme
