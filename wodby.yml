@@ -1,5 +1,5 @@
 pipeline:
 - name: Install dependencies
   type: command
-  command: composer install
+  command: composer install > /dev/null 2>&1
   directory: $WODBY_APP_ROOT
