@@ -32,6 +32,8 @@
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"]
     },
     "preserve-paths": [
+      "web/wp-config.php",
+      "web/wp-content/uploads"      
     ],
     "wordpress-install-dir": "web"
   }
