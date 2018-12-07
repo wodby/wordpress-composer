@@ -10,7 +10,7 @@ This project consist of:
 * `drupal-composer/preserve-paths` to exclude paths for plugins and themes under version control 
 * `wodby.yml` that runs `composer install`. You can remove it if you're not using [Wodby](https://wodby.com)
 
-Current WordPress core: `~4.9`
+Current WordPress core: `~5.0`
 
 ### Paths
 
