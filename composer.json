@@ -33,7 +33,7 @@
     },
     "preserve-paths": [
       "web/wp-config.php",
-      "web/wp-content/uploads"      
+      "web/wp-content/uploads"
     ],
     "wordpress-install-dir": "web"
   }
