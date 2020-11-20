@@ -22,8 +22,8 @@
   },
   "require": {
     "composer/installers": "^1.2",
-    "drupal-composer/preserve-paths": "0.1.*",
-    "johnpbloch/wordpress-core-installer": "^1.0",
+    "drupal-composer/preserve-paths": "^0.1",
+    "johnpbloch/wordpress-core-installer": "^2.0",
     "johnpbloch/wordpress-core": "~5.0"
   },
   "extra": {
